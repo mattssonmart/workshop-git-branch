@@ -1,3 +1,23 @@
+.gallery{
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery img {
+  width: 25%;
+  height: 250px;
+}
+.footer {
+  background: lightgray;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  font-style: italic;
+}
+  .a:hover{
+    color: red;
+  }
+ 
 .header {
   display: flex;
   justify-content: space-between; 
@@ -32,3 +52,11 @@
 .login {
   font-style: italic;
 }
+
+  flex: 1;                       
+  display: flex;                  
+  justify-content: center;        
+  align-items: center;            
+  text-align: center;
+}
+
