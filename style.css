@@ -1,0 +1,21 @@
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery img {
+  width: 25%;
+  height: 250px;
+}
+.footer {
+  background: lightgray;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  font-style: italic;
+}
+  .a:hover{
+    color: red;
+  }
+ 
