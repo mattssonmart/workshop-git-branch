@@ -1,4 +1,3 @@
-
 .gallery{
     display: flex;
     flex-direction: row;
@@ -28,9 +27,36 @@
 }
 
 .header > div {
+  flex: 1;                        
+  display: flex;                 
+  justify-content: center;        
+  align-items: center;           
+  text-align: center;
+}
+
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.search {
+  flex: 1;                 
+  text-align: center;       
+}
+
+.menu {
+  margin: 0 20px;
+}
+
+.login {
+  font-style: italic;
+}
+
   flex: 1;                       
   display: flex;                  
   justify-content: center;        
   align-items: center;            
   text-align: center;
 }
+
