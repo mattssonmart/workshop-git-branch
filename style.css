@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  background-color: lightblue;
+  padding: 10px 20px;
+}
+
+.header > div {
+  flex: 1;                        
+  display: flex;                 
+  justify-content: center;        
+  align-items: center;           
+  text-align: center;
+}
+
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.search {
+  flex: 1;                 
+  text-align: center;       
+}
+
+.menu {
+  margin: 0 20px;
+}
+
+.login {
+  font-style: italic;
+}
